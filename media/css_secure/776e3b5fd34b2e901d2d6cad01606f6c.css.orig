@@ -1,0 +1,1284 @@
+.overlay_dialog {
+	background-color: #666666;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.overlay___invisible__ {
+  background-color: #666666;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+.dialog_nw {
+	width: 9px;
+	height: 23px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/top_left.gif) no-repeat 0 0;		
+}
+
+.dialog_n {
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/top_mid.gif) repeat-x 0 0;	
+	height: 23px;
+}
+
+.dialog_ne {
+	width: 9px;
+	height: 23px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/top_right.gif) no-repeat 0 0;		
+}
+
+.dialog_e {
+	width: 2px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/center_right.gif) repeat-y 0 0;	
+}
+
+.dialog_w {
+	width: 2px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/center_left.gif) repeat-y 0 0;		
+}
+
+.dialog_sw {
+	width: 9px;
+	height: 19px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/bottom_left.gif) no-repeat 0 0;			
+}
+
+.dialog_s {
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/bottom_mid.gif) repeat-x 0 0;		
+	height: 19px;
+}
+
+.dialog_se {
+	width: 9px;
+	height: 19px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/bottom_right.gif) no-repeat 0 0;			
+}
+
+.dialog_sizer {
+	width: 9px;
+	height: 19px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/sizer.gif) no-repeat 0 0;	
+	cursor:se-resize;	
+}
+
+.dialog_close {
+	width: 14px;
+	height: 14px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/close.gif) no-repeat 0 0;			
+	position:absolute;
+	top:5px;
+	left:8px;
+	cursor:pointer;
+	z-index:2000;
+}
+
+.dialog_minimize {
+	width: 14px;
+	height: 15px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/minimize.gif) no-repeat 0 0;			
+	position:absolute;
+	top:5px;
+	left:28px;
+	cursor:pointer;
+	z-index:2000;
+}
+
+.dialog_maximize {
+	width: 14px;
+	height: 15px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/default/maximize.gif) no-repeat 0 0;			
+	position:absolute;
+	top:5px;
+	left:49px;
+	cursor:pointer;
+	z-index:2000;
+}
+
+.dialog_title {
+	float:left;
+	height:14px;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size:12px;
+	text-align:center;
+	width:100%;
+	color:#000;
+}
+
+.dialog_content {
+	overflow:auto;
+	color: #DDD;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 10px;
+	background-color:#123;
+}
+
+.top_draggable, .bottom_draggable {
+  cursor:move;
+}
+
+.status_bar {
+  font-size:12px;
+}
+.status_bar input{
+  font-size:12px;
+}
+
+.wired_frame {
+	display: block;
+  position: absolute;
+  border: 1px #000 dashed;
+}
+
+/* DO NOT CHANGE THESE VALUES*/
+.dialog {
+	display: block;
+	position: absolute;
+}
+
+.dialog table.table_window  { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+  width: 100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.dialog table.table_window td , .dialog table.table_window th { 
+  padding: 0; 
+}
+
+.dialog .title_window {
+  -moz-user-select:none;
+}                                                    
+
+
+.overlay_alphacube {
+	background-color: #85BBEF;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.alphacube_nw {
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/left-top.gif) no-repeat 0 0;			
+  width:10px;
+  height:25px;
+}
+
+.alphacube_n {
+  background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/top-middle.gif) repeat-x 0 0;			
+  height:25px;
+}
+
+.alphacube_ne {
+  background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/right-top.gif) no-repeat 0 0;			
+  width:10px;	  
+  height:25px;
+}
+
+.alphacube_w {
+  background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/frame-left.gif) repeat-y top left;			
+  width:7px;
+}
+
+.alphacube_e {
+  background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/frame-right.gif) repeat-y top right;			
+  width:7px;	  
+}
+
+.alphacube_sw {
+  background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/bottom-left-c.gif) no-repeat 0 0;			
+  width:7px;
+  height:7px;
+}
+
+.alphacube_s {
+  background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/bottom-middle.gif) repeat-x 0 0;			
+  height:7px;
+}
+
+.alphacube_se, .alphacube_sizer  {
+  background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/bottom-right-c.gif) no-repeat 0 0;			
+  width:7px;
+  height:7px;
+}
+
+.alphacube_sizer {
+	cursor:se-resize;	
+}
+
+.alphacube_close {
+	width: 23px;
+	height: 23px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/button-close-focus.gif) no-repeat 0 0;			
+	position:absolute;
+	top:0px;
+	right:11px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.alphacube_minimize {
+	width: 23px;
+	height: 23px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/button-min-focus.gif) no-repeat 0 0;			
+	position:absolute;
+	top:0px;
+	right:55px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.alphacube_maximize {
+	width: 23px;
+	height: 23px;
+	background: transparent url(https://www.guidor.com/js/prototype/windows/themes/alphacube/button-max-focus.gif) no-repeat 0 0;			
+	position:absolute;
+	top:0px;
+	right:33px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.alphacube_title {
+	float:left;
+	height:14px;
+	font-size:14px;
+	text-align:center;
+	margin-top:2px;
+	width:100%;
+	color:#123456;
+}
+
+.alphacube_content {
+	overflow:auto;
+	color: #000;
+	font-family: Tahoma, Arial, sans-serif;
+  font: 12px arial;
+	background:#FDFDFD;
+}
+
+/* For alert/confirm dialog */
+.alphacube_window {
+	border:1px solid #F00;	
+	background: #FFF;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+}
+
+.alphacube_message {
+  font: 12px arial;
+	text-align:center;
+	width:100%;
+	padding-bottom:10px;
+}
+
+.alphacube_buttons {
+	text-align:center;
+	width:100%;
+}
+
+.alphacube_buttons input {
+	width:20%;
+	margin:10px;
+}
+
+.alphacube_progress {
+	float:left;
+	margin:auto;
+	text-align:center;
+	width:100%;
+	height:16px;
+	background: #FFF url('https://www.guidor.com/js/prototype/windows/themes/alert/progress.gif') no-repeat center center
+}
+
+.alphacube_wired_frame {
+	background: #FFF;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;	
+}
+
+
+
+.opentip-container,
+.opentip-container * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.opentip-container {
+  position: absolute;
+  max-width: 300px;
+  z-index: 100;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  -moz-transition: -moz-transform 1s ease-in-out;
+  -o-transition: -o-transform 1s ease-in-out;
+  -ms-transition: -ms-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  pointer-events: none;
+  -webkit-transform: translateX(0) translateY(0);
+  -moz-transform: translateX(0) translateY(0);
+  -o-transform: translateX(0) translateY(0);
+  -ms-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-top.stem-center,
+.opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-center,
+.opentip-container.ot-fixed.ot-hiding.stem-top.stem-center {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-top.stem-right,
+.opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-right,
+.opentip-container.ot-fixed.ot-hiding.stem-top.stem-right {
+  -webkit-transform: translateY(-5px) translateX(5px);
+  -moz-transform: translateY(-5px) translateX(5px);
+  -o-transform: translateY(-5px) translateX(5px);
+  -ms-transform: translateY(-5px) translateX(5px);
+  transform: translateY(-5px) translateX(5px);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-middle.stem-right,
+.opentip-container.ot-fixed.ot-going-to-show.stem-middle.stem-right,
+.opentip-container.ot-fixed.ot-hiding.stem-middle.stem-right {
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-right,
+.opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-right,
+.opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-right {
+  -webkit-transform: translateY(5px) translateX(5px);
+  -moz-transform: translateY(5px) translateX(5px);
+  -o-transform: translateY(5px) translateX(5px);
+  -ms-transform: translateY(5px) translateX(5px);
+  transform: translateY(5px) translateX(5px);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-center,
+.opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-center,
+.opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-center {
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-bottom.stem-left,
+.opentip-container.ot-fixed.ot-going-to-show.stem-bottom.stem-left,
+.opentip-container.ot-fixed.ot-hiding.stem-bottom.stem-left {
+  -webkit-transform: translateY(5px) translateX(-5px);
+  -moz-transform: translateY(5px) translateX(-5px);
+  -o-transform: translateY(5px) translateX(-5px);
+  -ms-transform: translateY(5px) translateX(-5px);
+  transform: translateY(5px) translateX(-5px);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-middle.stem-left,
+.opentip-container.ot-fixed.ot-going-to-show.stem-middle.stem-left,
+.opentip-container.ot-fixed.ot-hiding.stem-middle.stem-left {
+  -webkit-transform: translateX(-5px);
+  -moz-transform: translateX(-5px);
+  -o-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+.opentip-container.ot-fixed.ot-hidden.stem-top.stem-left,
+.opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-left,
+.opentip-container.ot-fixed.ot-hiding.stem-top.stem-left {
+  -webkit-transform: translateY(-5px) translateX(-5px);
+  -moz-transform: translateY(-5px) translateX(-5px);
+  -o-transform: translateY(-5px) translateX(-5px);
+  -ms-transform: translateY(-5px) translateX(-5px);
+  transform: translateY(-5px) translateX(-5px);
+}
+.opentip-container.ot-fixed .opentip {
+  pointer-events: auto;
+}
+.opentip-container.ot-hidden {
+  display: none;
+}
+.opentip-container .opentip {
+  position: relative;
+  font-size: 13px;
+  line-height: 120%;
+  padding: 9px 14px;
+  color: #4f4b47;
+  text-shadow: -1px -1px 0px rgba(255,255,255,0.2);
+}
+.opentip-container .opentip .header {
+  margin: 0;
+  padding: 0;
+}
+.opentip-container .opentip .ot-close {
+  pointer-events: auto;
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: 60px;
+  color: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0);
+  text-decoration: none;
+}
+.opentip-container .opentip .ot-close span {
+  display: none;
+}
+.opentip-container .opentip .ot-loading-indicator {
+  display: none;
+}
+.opentip-container.ot-loading .ot-loading-indicator {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  display: block;
+}
+.opentip-container.ot-loading .ot-loading-indicator span {
+  display: block;
+  -webkit-animation: otloading 2s linear infinite;
+  -moz-animation: otloading 2s linear infinite;
+  -o-animation: otloading 2s linear infinite;
+  -ms-animation: otloading 2s linear infinite;
+  animation: otloading 2s linear infinite;
+  text-align: center;
+}
+.opentip-container.style-dark .opentip,
+.opentip-container.style-alert .opentip {
+  color: #f8f8f8;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+.opentip-container.style-glass .opentip {
+  padding: 15px 25px;
+  color: #317cc5;
+  text-shadow: 1px 1px 8px rgba(0,94,153,0.3);
+}
+.opentip-container.ot-hide-effect-fade {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -ms-transition: -ms-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.opentip-container.ot-hide-effect-fade.ot-hiding {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.opentip-container.ot-show-effect-appear.ot-going-to-show,
+.opentip-container.ot-show-effect-appear.ot-showing {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -ms-transition: -ms-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
+}
+.opentip-container.ot-show-effect-appear.ot-going-to-show {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.opentip-container.ot-show-effect-appear.ot-showing {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.opentip-container.ot-show-effect-appear.ot-visible {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+@-moz-keyframes otloading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes otloading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes otloading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes otloading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes otloading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* The main calendar widget.  DIV containing a table. */
+
+div.calendar { position: relative; }
+
+.calendar, .calendar table {
+  border: 1px solid #556;
+  font-size: 11px;
+  color: #000;
+  cursor: default;
+  background: #eef;
+  font-family: tahoma,verdana,sans-serif;
+}
+
+/* Header part -- contains navigation buttons and day names. */
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+  text-align: center;    /* They are the navigation buttons */
+  padding: 2px;          /* Make the buttons seem like they're pressing */
+}
+
+.calendar .nav {
+  background: #778 url(https://www.guidor.com/js/calendar/menuarrow.gif) no-repeat 100% 100%;
+}
+
+.calendar thead .title { /* This holds the current "month, year" */
+  font-weight: bold;      /* Pressing it will take you to the current date */
+  text-align: center;
+  background: #fff;
+  color: #000;
+  padding: 2px;
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+  background: #778;
+  color: #fff;
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+  background: #bdf;
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+  border-bottom: 1px solid #556;
+  padding: 2px;
+  text-align: center;
+  color: #000;
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+  color: #a66;
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover */
+  background-color: #aaf;
+  color: #000;
+  border: 1px solid #04f;
+  padding: 1px;
+}
+
+.calendar thead .active { /* Active (pressed) buttons in header */
+  background-color: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+  width: 2em;
+  color: #456;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+  font-size: 80%;
+  color: #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+  color: #fbb;
+}
+
+.calendar table .wn {
+  padding: 2px 3px 2px 2px;
+  border-right: 1px solid #000;
+  background: #bdf;
+}
+
+.calendar tbody .rowhilite td {
+  background: #def;
+}
+
+.calendar tbody .rowhilite td.wn {
+  background: #eef;
+}
+
+.calendar tbody td.hilite { /* Hovered cells <TD> */
+  background: #def;
+  padding: 1px 3px 1px 1px;
+  border: 1px solid #bbb;
+}
+
+.calendar tbody td.active { /* Active (pressed) cells <TD> */
+  background: #cde;
+  padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { /* Cell showing today date */
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 1px 3px 1px 1px;
+  background: #fff;
+  color: #000;
+}
+
+.calendar tbody td.weekend { /* Cells showing weekend days */
+  color: #a66;
+}
+
+.calendar tbody td.today { /* Cell showing selected date */
+  font-weight: bold;
+  color: #00f;
+}
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+  visibility: hidden;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */
+  display: none;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+  text-align: center;
+  background: #556;
+  color: #fff;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+  background: #fff;
+  color: #445;
+  border-top: 1px solid #556;
+  padding: 1px;
+}
+
+.calendar tfoot .hilite { /* Hover style for buttons in footer */
+  background: #aaf;
+  border: 1px solid #04f;
+  color: #000;
+  padding: 1px;
+}
+
+.calendar tfoot .active { /* Active (pressed) style for buttons in footer */
+  background: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.calendar .combo {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 4em;
+  cursor: default;
+  border: 1px solid #655;
+  background: #def;
+  color: #000;
+  font-size: 90%;
+  z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+  text-align: center;
+  padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+  width: 4em;
+}
+
+.calendar .combo .hilite {
+  background: #acf;
+}
+
+.calendar .combo .active {
+  border-top: 1px solid #46a;
+  border-bottom: 1px solid #46a;
+  background: #eef;
+  font-weight: bold;
+}
+
+.calendar td.time {
+  border-top: 1px solid #000;
+  padding: 1px 0px;
+  text-align: center;
+  background-color: #f4f0e8;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {
+  padding: 0px 3px 0px 4px;
+  border: 1px solid #889;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.calendar td.time .ampm {
+  text-align: center;
+}
+
+.calendar td.time .colon {
+  padding: 0px 2px 0px 3px;
+  font-weight: bold;
+}
+
+.calendar td.time span.hilite {
+  border-color: #000;
+  background-color: #667;
+  color: #fff;
+}
+
+.calendar td.time span.active {
+  border-color: #f00;
+  background-color: #000;
+  color: #0f0;
+}
+
+.webforms-fields-comment {
+    float: left;
+    margin-top: 4px;
+    line-height: 1.3em;
+    color: #666;
+    font-size: .9em;
+    width: 100%;
+}
+
+.webforms-fields-hint {
+    font-style: italic;
+    color: grey;
+}
+
+.group-select li textarea {
+    height: 10em;
+}
+
+.highlight .webforms-calendar input, .webforms-calendar input {
+    background-image: url(https://www.guidor.com/skin/frontend/base/default/webforms/calendar.gif) !important;
+    background-position: 99% 2px !important;
+    background-repeat: no-repeat !important;
+}
+
+.calendar {
+    z-index: 1000;
+}
+
+ul.webforms-errors-list {
+    margin: 5px;
+    padding: 5px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ul.webforms-errors-list li {
+    margin-bottom: 5px;
+}
+
+p.webforms-error-message {
+    margin: 10px;
+    text-align: center;
+}
+
+.webforms-uploaded-file {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.webforms-uploaded-file-delete {
+    margin: 3px 0 0 0;
+    clear: both;
+}
+
+.webforms-uploaded-file-delete-label {
+    margin-left: 5px;
+    float: none !important;
+}
+
+.list-select {
+    padding: 10px !important;
+}
+
+.form-list li, li.control {
+    list-style: none;
+    position: relative;
+}
+
+.checkbox {
+    float: left;
+}
+
+figcaption {
+    padding: 5px 20px;
+    margin: 5px;
+}
+
+/* Tooltip */
+
+.ot-content {
+    text-align: left;
+}
+
+.tooltip-icon {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background-image: url('https://www.guidor.com/skin/frontend/base/default/webforms/tooltip.png');
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+/* Sidebar template */
+
+.block-form, .block-form .input-box label {
+    font-size: 11px !important;
+}
+
+.block-form .input-text, .block-form textarea, .block-form .form-list .input-box, .block-form .field {
+    width: 100%;
+}
+
+.block-form .input-text {
+    padding: 1px 0;
+}
+
+.block-form textarea {
+    height: 70px;
+}
+
+.block-form .block-content {
+    padding: 5px 9px;
+}
+
+.block-form label {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.block-form .input-box label {
+    font-weight: normal !important;
+}
+
+.block-form .input-box {
+    margin-bottom: 10px;
+}
+
+.block-form .required em {
+    color: red;
+}
+
+.block-form .list-select {
+    padding-bottom: 0px !important;
+}
+
+.block-form p.required {
+    float: left;
+}
+
+/* Customer account */
+#webforms-customer-account-form {
+    padding-top: 15px;
+}
+
+/* Success text */
+.webforms-success-text {
+    border: 1px solid #ccc;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 212, 96, 0.26);
+    border-radius: 5px;
+}
+
+/* File preview */
+
+.file-preview {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.file-preview h3 {
+    font-size: 12px;
+}
+
+.file-preview li {
+    margin: 0;
+    padding: 10px 0;
+    margin: 0;
+    overflow: auto;
+    position: relative;
+}
+
+.file-preview li img {
+    border: solid 1px #999;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 0 10px 0 0;
+    display: block;
+    float: left;
+}
+
+.file-cancel {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left:15px;
+}
+
+.file-progress {
+    font-size: 90%;
+    color: #777;
+}
+
+/* Drop-zone */
+
+.drop-zone {
+    padding: .5rem .7rem;
+    color: #777;
+    border: .17rem dashed #ddd;
+    border-radius: .4rem;
+    opacity: .9;
+    cursor: pointer;
+}
+.drop-zone-preview-container{
+    margin-bottom: 10px;
+}
+.drop-zone:hover {
+    background-color: #f5f5f5;
+}
+
+.drop-zone-label {
+    display: inline-block !important;
+    vertical-align: top !important
+}
+
+.icon-paperclip {
+    color: rgb(240, 120, 0) !important;
+    fill: rgb(240, 120, 0) !important;
+}
+
+.icon-paperclip svg {
+    transform: rotate(45deg) scaleX(-1);
+}
+
+.text-center {
+    text-align: center !important
+}
+
+.drop-zone-preview {
+    background: #f8f8f8;
+    border: .09167rem solid #dadada;
+    border-radius: .33333rem;
+    color: #999;
+    padding:5px;
+    margin-bottom:5px;
+    line-height: 14px;
+    position:relative;
+}
+
+.drop-zone-attachment {
+    overflow: auto;
+    height: auto;
+    z-index: 2;
+    width: 100% !important;
+    position: relative;
+}
+
+.drop-zone-preview-icon-file {
+    padding-right: .66667rem;
+    float: left !important;
+}
+
+.drop-zone-preview-icon-file svg path{
+}
+
+.drop-zone-preview-file {
+    width: 70%;
+    float: left !important;
+}
+
+.drop-zone-preview-filename {
+    max-width: 62%;
+    color: #333;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    word-wrap: normal !important;
+    white-space: nowrap !important;
+    float: left !important;
+    vertical-align: top !important;
+}
+
+.drop-zone-preview-filename-end{
+    color: #333;
+}
+
+.drop-zone-preview-size, .drop-zone-error {
+    clear: left;
+    float: left !important;
+}
+.drop-zone-error{
+    color: red;
+}
+
+.drop-zone-preview-icon-close {
+    position: absolute;
+    top: 50%;
+    right: .41667rem;
+    margin-top: -1.5rem !important;
+    padding-top: 1rem;
+    border: 0;
+    cursor: pointer !important;
+    float: right !important;
+}
+
+.drop-zone-preview-icon-close svg {
+    fill: #999;
+}
+
+.drop-zone-progress, .drop-zone-progress-success {
+    position: absolute;
+    border-radius: .33333rem;
+    background-color: #00ff08;
+    opacity: .1;
+    height:100% !important;
+    z-index:1;
+    top:0;
+    left:0;
+    display:block;
+}
+
+.drop-zone-progress-success {
+    opacity: 0;
+}
+
+/* File pool */
+.webforms-file-pool {
+    display: table;
+    margin-bottom: 10px;
+    border:5px solid #eee;
+    padding:10px;
+    border-radius: 10px;
+}
+.webforms-file-pool-selectall{
+    margin-bottom:5px;
+}
+.webforms-file-pool-selectall label{
+    font: bold 10px/16px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #888;
+    float:none !important;
+    margin-left:5px;
+
+}
+.webforms-file-cell{
+    float:left;
+    flex:1;
+    height: auto;
+    text-align: center;
+    font: bold 9px/16px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #888;
+    display: table-cell;
+
+}
+.webforms-file-cell p label{
+    color: #888;
+
+}
+.webforms-file-cell p {
+    padding-top: 5px;
+    margin-left: -10px;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+.webforms-file-cell label{
+    float:none !important;
+    margin-left:5px;
+}
+
+.webforms-file-link{
+    display: block;
+    border-radius:5px;
+    float:left;
+    margin-right:10px;
+    height:auto;
+    box-shadow: 0 0 3px rgba(0,0,0,0.6);
+    background: #f5f5f5;
+    max-width:200px;
+}
+.webforms-file-link:hover {
+    box-shadow: 0 0 7px rgba(0,0,0,0.6);
+    background: white;
+    color: #888;
+
+}
+.webforms-file-link figure p{
+    margin:10px 0 5px 0;
+}
+.webforms-file-link figure img{
+    background:white;
+}
+
+.webforms-file-link-name {
+    display:inline;
+    max-width:60%;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    word-wrap: normal !important;
+    white-space: nowrap !important;
+    float:left;
+}
+.webforms-file-link-name-end {display:inline;}
+
+.webforms-file-delete-checkbox{
+    vertical-align: baseline;
+}
+
+.webforms-result-action{
+    display: block;
+    height: 16px;
+    background: #ddd;
+    border-radius: 12px;
+    font: bold 10px/16px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 10px;
+    margin: 5px 1px;
+    white-space: nowrap;
+    color: #888;
+    text-decoration: none;
+}
+.webforms-result-action:hover{
+    text-decoration: none;
+    color:white;
+    background: #aaa;
+}
+.result-action-delete {
+    border-color: red;
+}
+.result-action-delete:hover{
+    background: #ff5500;
+}
+.webforms-gdpr-checkbox {margin-top:10px; float:left; width:100%;}
+.webforms-gdpr-checkbox .form-list .control .input-box{width:20px;float:left;}
+
+/* reCAPTCHA */
+.g-recaptcha{
+    margin:15px 0;
+    float:left;
+}
+div.starry {
+	width:auto;
+	xfloat:left;
+	margin:10px 0 10px 0;
+	padding:5px;
+	xborder:1px solid #ddd;
+	width:auto;
+}
+div.standard_star {
+	background-repeat: no-repeat;
+	cursor:pointer;
+	float:left;
+	display:inline;
+	background-image: url(https://www.guidor.com/skin/frontend/base/default/webforms/stars.gif);
+}
+div.feedback {
+	border:1px solid #ddd;
+	padding:5px 3px 3px;
+	display:inline;
+}
+.autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+
+    /* core styles should not be changed */
+    position: absolute; display: none; z-index: 9999; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.autocomplete-suggestion b { font-weight: normal; color: #1f8dd6; }
+.autocomplete-suggestion.selected { background: #f0f0f0; }
+

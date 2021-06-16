@@ -1,0 +1,15 @@
+.news-item .content,
+.events-item  .content
+{
+    text-align: left;
+}
+.news-item > .wrapper > .content,
+.events-item  > .wrapper > .content
+{
+    text-align: center;
+}
+.news-item > .wrapper > .content ul,
+.events-item > .wrapper > .content ul
+{
+    display: inline-block;
+}
