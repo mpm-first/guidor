@@ -56,16 +56,19 @@
             <li><a href="index.html#" class="close-link"><i class="fa fa-times"></i><span>close</span></a></li>
           </ul>
         </div>
-        <!--end mobile menu switcher-->        <style>
-        .form-language {
+        <!--end mobile menu switcher-->        
+        <style>
+        #langs {
         visibility: hidden;
         overflow: hidden;
         pointer-events: none;
         }
-        </style><div class="right-part fl-r">
+        </style>
+        <div class="right-part fl-r">
           <div class="lang-item clr-fx">
             <div class="form-language">
-              <label class="fl-l" for="langs"><i class="fa fa-globe"></i></label>
+            <div id="google_translate_element"></div>
+<!--               <label class="fl-l" for="langs"><i class="fa fa-globe"></i></label>
               <select class="type-2 fl-l" id="langs" name="langs" onchange="changeStore(this.value)">
                 <option value="#" selected="selected">Select Site</option>
                 <option value="https://www.guidor.com/global/">Global Site</option>
@@ -75,10 +78,11 @@
                 <option value="https://www.guidor.com/it_it/">Italia</option>
                 <option value="http://us.guidor.com/">USA</option>
                 <option value="http://guidor.ca/">Canada</option>
-              </select>
+              </select> -->
             </div>
           </div>
         </div>
+        <div class="clear"></div>
         <nav class='fl-l'><ul class='level0 menu-creator-pro menu-creator-pro-scale menu-creator-pro-rp-switcher menu-creator-pro-cyan'><li class="  level0 type-2"><a title="Our Difference" href="difference-synthetic-success.html" target="_self"><span>Our Difference</span></a></li><li class="  mcpdropdown parent  level0 type-2"><a title="Our products" href="index.html#" target="_self"> <span class='title'>Our products</span><span class="mcp-icon fa-angle-down"></span></a><div class='grid-container5'><ul><li class="  autosub-item"><a title="GUIDOR easy-graft"  href="easy-graft.html" target="_self">GUIDOR <em>easy-graft</em><span>Synthetic bone graft applied with a syringe</span></a></li><li class="  autosub-item"><a title="GUIDOR calc-i-oss"  href="calc-i-oss.html" target="_self">GUIDOR <em>calc-i-oss</em><span>Synthetic bone graft in traditional granules</span></a></li></ul></div></li>            <li class="  level0 type-2">
         <a title="Contact us" href="http://collagenmatrix.com/contact/" target="_self"> <span class='title'>Contact us</span></a>
         </li></ul></nav>        <div class="clear"></div>
@@ -270,7 +274,7 @@
                         </div>
                         <div class="item lang-item clr-fx">
                           <div class="form-language">
-                            <label class="fl-l" for="langs"><i class="fa fa-globe"></i></label>
+           <!--                  <label class="fl-l" for="langs"><i class="fa fa-globe"></i></label>
                             <select class="type-2 fl-l" id="langs" name="langs" onchange="changeStore(this.value)">
                               <option value="#" selected="selected">Select Site</option>
                               <option value="https://www.guidor.com/global/">Global Site</option>
@@ -280,7 +284,7 @@
                               <option value="https://www.guidor.com/it_it/">Italia</option>
                               <option value="http://us.guidor.com/">USA</option>
                               <option value="http://guidor.ca/">Canada</option>
-                            </select>
+                            </select> -->
                           </div>
                         </div>
                         <div class="item contacts-us">
@@ -317,5 +321,12 @@
                         // Launch the Ajax request
                         ajaxifier.launchRequest();
                         </script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,fr,de,it', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                       </body>
                     </html>
